@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - WebVisionTech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>Web<span class="text-blue">Vision</span>Tech</h1>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Início</a>
+                <a href="services.html" class="nav-link">Serviços</a>
+                <a href="about.html" class="nav-link">Sobre</a>
+                <a href="contact.html" class="nav-link active">Contato</a>
+                <button class="btn btn-primary">Orçamento</button>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Entre em <span class="text-blue">Contato</span></h1>
+            <p>Vamos conversar sobre seu próximo projeto</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Fale Conosco</h2>
+                    <p>Estamos prontos para transformar suas ideias em realidade digital. Entre em contato conosco através dos canais abaixo ou preencha o formulário.</p>
+
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>webvisiontech@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Telefone</h3>
+                                <p>(88)-9905-3942</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Localização</h3>
+                                <p>Jijoca de Jericoacoara-CE</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Horário</h3>
+                                <p>Seg - Sex: 9h às 18h</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Serviço de Interesse</label>
+                            <select id="service" name="service" required>
+                                <option value="">Selecione um serviço</option>
+                                <option value="websites">Desenvolvimento de Sites</option>
+                                <option value="apps">Desenvolvimento de Apps</option>
+                                <option value="analytics">Análise de Dados</option>
+                                <option value="traffic">Tráfego Pago</option>
+                                <option value="other">Outro</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Conte-nos sobre seu projeto..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-large">
+                            Enviar Mensagem <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Web<span class="text-blue">Vision</span>Tech</h3>
+                    <p>Transformamos ideias em soluções digitais inovadoras. Sua parceira em tecnologia para o crescimento do seu negócio.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="services.html#websites">Desenvolvimento Web</a></li>
+                        <li><a href="services.html#apps">Apps Mobile</a></li>
+                        <li><a href="services.html#analytics">Análise de Dados</a></li>
+                        <li><a href="services.html#traffic">Marketing Digital</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> webvisiontech@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> (88)-9905-3942</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Jijoca de Jericoacoara-CE</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 WebVisionTech. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
